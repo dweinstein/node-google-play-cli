@@ -1,0 +1,39 @@
+{
+  "name": "google-play-cli",
+  "version": "1.0.0",
+  "description": "use google play mobile app APIs via CLI",
+  "main": "index.js",
+  "bin": {
+    "gp-details": "bin/details",
+    "gp-download": "bin/download",
+    "gp-bulk-details": "bin/bulkDetails",
+    "gp-download-info": "bin/download-info",
+    "gp-get-sha1": "bin/getSha1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dweinstein/node-google-play-cli.git"
+  },
+  "keywords": [
+    "google",
+    "play",
+    "store",
+    "cli",
+    "download",
+    "apk",
+    "details",
+    "bulk"
+  ],
+  "author": "dweinstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dweinstein/node-google-play-cli/issues"
+  },
+  "homepage": "https://github.com/dweinstein/node-google-play-cli",
+  "dependencies": {
+    "node-googleplay-api": "^1.1.0"
+  }
+}

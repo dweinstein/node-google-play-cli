@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+'use strict';
+
+var argv = require('minimist')(process.argv.slice(2));
+var api = require('../lib/api');
+
+var pkg = argv._[0] || argv.p;
+var vc = argv._[1] || argv.vc;
+
+if(!pkg) {
+  console.error("supply pkg (-p)");
+  process.exit(1);
+}
+
+require('../lib/download')(api, pkg, vc)
+.then(function (stream) {
+  stream.pipe(process.stdout);
+}, function (err) {
+  console.error(err);
+  process.exit(1);
+});
+
