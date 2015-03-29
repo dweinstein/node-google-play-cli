@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/dweinstein/node-google-play-cli.png)](https://travis-ci.org/dweinstein/node-google-play-cli)
+[![npm version](https://badge.fury.io/js/google-play-cli.svg)](http://badge.fury.io/js/google-play-cli)
+
 # SYNOPSIS
 
 Command line tools using the
