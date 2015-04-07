@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "0.10"
+  - "0.12"
+  - iojs
+script:
+  - npm test
+env:
+  global:
+    - secure: RhFwZKxW8WU84e8fGRqjwUDv7nIv5AovuRaBt0HtyfCQPkeu3ZrRVO6ATobZROt5qa+cS4wuLlpA+mtcf2bPM+ef0PYKKxOpyZK98+ftFinWYQZ0E0ymhHboPcP8dJwqe33YU2g3jaRBodr0Utgez2uwto/R1PuGTXPkeHbtKLo=
+    - secure: NxQgsbqccaM3ZljQcmTft7N5UfQC7bt4p9OpTm/xqpdOaW1ks592u+0+YkFipRTZOvX6RBZ8YqtwS0Hs+yaP+bhesVNAd3+XHLPgA6g82G263Girgb6tx9OiPDpcLrnPmckcM9fek5rhxmkgDcy7xIULeu3CQJsWZmQv+hlzY/s=
+    - secure: WdFJ3FbrSszhvX3Jwdb4MZ1tRaJ89zJfLrPqV20XP0YmUG0i3W5daxBm5Ow9f/MIIzU/8WIWBor9ZejssTcl0zrV7wI7FaPvmWWXNt0Io9K/EvmKXN3PBdW/cXo9szKDkDisR9s9bl639+Z0nQ18UVd6oIm/f2viIIyIXfDr3HM=
