@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+'use strict';
+
+var api = require('../lib/api');
+
+var argv = require('minimist')(process.argv.slice(2));
+var term = argv._[0] || argv.t || argv.term ;
+var size = argv._[1] || argv.s || argv.size || 1;
+var offset = argv._[2] || argv.o || argv.offset || 0;
+
+if (!term) {
+  console.error("supply term (-t, --term)");
+  process.exit(1);
+}
+
+api.search(term, size, offset)
+.then(function (res) {
+  console.log('%j', res);
+}, function (err) {
+  console.error(err);
+  process.exit(1);
+});
+

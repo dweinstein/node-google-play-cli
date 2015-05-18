@@ -8,7 +8,8 @@
     "gp-download": "bin/download",
     "gp-bulk-details": "bin/bulkDetails",
     "gp-download-info": "bin/downloadInfo",
-    "gp-get-sha1": "bin/getSha1"
+    "gp-get-sha1": "bin/getSha1",
+    "gp-search": "bin/search"
   },
   "scripts": {
     "test": "tape test/*.test.js"
