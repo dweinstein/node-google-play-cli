@@ -36,7 +36,7 @@
   "homepage": "https://github.com/dweinstein/node-google-play-cli",
   "dependencies": {
     "minimist": "^1.1.1",
-    "node-googleplay-api": "^1.1.9"
+    "node-googleplay-api": "^1.1.10"
   },
   "devDependencies": {
     "tape": "^4.0.0"
