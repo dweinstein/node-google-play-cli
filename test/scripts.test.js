@@ -19,7 +19,7 @@ test('bulkDetails', function (t) {
   });
 });
 
-test('download', function (t) {
+test.skip('download', function (t) {
   var details = exec('./bin/download com.insitusec.isthisreallife > /dev/null', function (error, stdout, stderr) {
     t.notOk(error, 'should exit cleanly');
     t.notOk(stderr, 'should not produce stderr');
