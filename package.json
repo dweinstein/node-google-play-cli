@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/dweinstein/node-google-play-cli",
   "dependencies": {
-    "gpapi": "^2.0.0",
+    "gpapi": "^2.0.1",
     "long": "^3.0.3",
     "minimist": "^1.1.1"
   },
