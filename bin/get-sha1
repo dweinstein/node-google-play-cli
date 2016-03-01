@@ -12,9 +12,9 @@ if(!pkg) {
   process.exit(1);
 }
 
-require('../lib/appSha1')(api, pkg, vc)
+require('../lib/app')(api, pkg, vc)
 .then(function (res) {
-  console.log(res);
+  console.log(res.sha1);
 }, function (err) {
   console.error(err);
   process.exit(1);
