@@ -11,7 +11,7 @@ test('details', function (t) {
 });
 
 test('bulkDetails', function (t) {
-  var details = exec('./bin/bulkDetails com.viber.voip air.WatchESPN', function (error, stdout, stderr) {
+  var details = exec('./bin/bulk-details com.viber.voip air.WatchESPN', function (error, stdout, stderr) {
     t.notOk(error, 'should exit cleanly');
     t.ok(stdout.length > 0, 'should produce some output');
     t.doesNotThrow(JSON.parse.bind(null, stdout), 'parses json');
