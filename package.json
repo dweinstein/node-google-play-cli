@@ -4,10 +4,11 @@
   "description": "use google play mobile app APIs via CLI",
   "main": "index.js",
   "bin": {
+    "gp-bulk-details": "bin/bulk-details",
     "gp-details": "bin/details",
     "gp-download": "bin/download",
-    "gp-bulk-details": "bin/bulk-details",
     "gp-download-info": "bin/download-info",
+    "gp-download-meta": "bin/download-meta",
     "gp-get-sha1": "bin/get-sha1",
     "gp-search": "bin/search"
   },
