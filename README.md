@@ -43,7 +43,5 @@ Get the SHA1 checksum for the file from Google.
 
 ```
 $ gp-get-sha1 air.WatchESPN
-{ packageName: 'air.WatchESPN',
-  versionCode: 2100049,
-  sha1: '5381ff6fbcb36032aea1c3b83d921b94602c2f3a' }
+5381ff6fbcb36032aea1c3b83d921b94602c2f3a
 ```
