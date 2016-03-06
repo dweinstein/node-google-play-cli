@@ -21,7 +21,7 @@ api.details(pkg).then(function (res) {
 .then(function (info) {
   console.log('%j', info);
 }, function (err) {
-  console.error(err);
+  console.error(err.toString());
   process.exit(1);
 });
 

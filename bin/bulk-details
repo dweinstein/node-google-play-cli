@@ -14,7 +14,7 @@ if (!pkgs) {
 api.bulkDetails(pkgs).then(function (res) {
   console.log('%j', res);
 }, function (err) {
-  console.error(err);
+  console.error(err.toString());
   process.exit(1);
 });
 

@@ -16,7 +16,7 @@ require('../lib/app')(api, pkg, vc)
 .then(function (res) {
   console.log(res);
 }, function (err) {
-  console.error(err);
+  console.error(err.toString());
   process.exit(1);
 });
 

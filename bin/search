@@ -17,7 +17,7 @@ api.search(term, size, offset)
 .then(function (res) {
   console.log('%j', res);
 }, function (err) {
-  console.error(err);
+  console.error(err.toString());
   process.exit(1);
 });
 

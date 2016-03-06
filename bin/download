@@ -16,7 +16,7 @@ require('../lib/download')(api, pkg, vc)
 .then(function (stream) {
   stream.pipe(process.stdout);
 }, function (err) {
-  console.error(err);
+  console.error(err.toString());
   process.exit(1);
 });
 
