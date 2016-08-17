@@ -14,7 +14,7 @@ if(!pkg) {
 
 require('../lib/app')(api, pkg, vc)
 .then(function (res) {
-  console.log(res);
+  console.log(JSON.stringify(res, null, 2));
 }, function (err) {
   console.error(err.toString());
   process.exit(1);
