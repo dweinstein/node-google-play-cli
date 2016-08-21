@@ -1,6 +1,6 @@
 {
   "name": "google-play-cli",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "use google play mobile app APIs via CLI",
   "main": "index.js",
   "bin": {
