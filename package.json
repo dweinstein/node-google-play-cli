@@ -38,7 +38,7 @@
   "homepage": "https://github.com/dweinstein/node-google-play-cli",
   "dependencies": {
     "decamelize": "^1.2.0",
-    "gpapi": "^3.6.1",
+    "gpapi": "^4.0.0",
     "long": "^3.0.3",
     "minimist": "^1.1.1",
     "rc": "^1.1.6"
