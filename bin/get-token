@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+'use strict';
+
+var api = require('../lib/api');
+
+api.login()
+  .then(function (token) {
+    console.log(token);
+  });
