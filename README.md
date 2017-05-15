@@ -14,10 +14,10 @@ The following **environment variables** are used:
 
 - `GOOGLE_LOGIN` - email address used on a mobile phone.
 - `GOOGLE_PASSWORD` - The password used to access the Play service.
-- `ANDROID_ID` - the ID for the device for Google. This is the GSF ID not the
+- `ANDROID_ID` - the ID for the device for Google. This is the GSF ID *not* the
   id from dialing `*#*#8255#*#*`. You can get the gsf id e.g., using the
   [device id
-  app](https://play.google.com/store/apps/details?id=com.redphx.deviceid)
+  app](https://play.google.com/store/apps/details?id=com.evozi.deviceid&hl=en)
 
 # USAGE
 
