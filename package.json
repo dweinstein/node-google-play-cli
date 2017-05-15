@@ -10,7 +10,8 @@
     "gp-download-info": "bin/download-info",
     "gp-download-meta": "bin/download-meta",
     "gp-get-sha1": "bin/get-sha1",
-    "gp-search": "bin/search"
+    "gp-search": "bin/search",
+    "gp-get-token": "bin/get-token"
   },
   "preferGlobal": true,
   "scripts": {
@@ -38,7 +39,7 @@
   "homepage": "https://github.com/dweinstein/node-google-play-cli",
   "dependencies": {
     "decamelize": "^1.2.0",
-    "gpapi": "^4.0.0",
+    "gpapi": "^4.1.1",
     "long": "^3.2.0",
     "minimist": "^1.1.1",
     "rc": "^1.1.6"
