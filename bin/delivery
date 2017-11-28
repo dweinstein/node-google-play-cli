@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+'use strict';
+
+var api = require('../lib/api');
+
+var argv = require('minimist')(process.argv.slice(2));
+var pkg = argv._[0] || argv.p;
+var vc = argv._[1] || argv.vc;
+
+if (!pkg) {
+  console.error('supply package (-p)');
+  process.exit(1);
+}
+
+api.details(pkg).then(function (res) {
+  return vc || res.details.appDetails.versionCode;
+})
+.then(function (versionCode) {
+  return api.deliveryData(pkg, versionCode);
+})
+.then(function (info) {
+  console.log('%j', info);
+}, function (err) {
+  console.error(err.toString());
+  process.exit(1);
+});
